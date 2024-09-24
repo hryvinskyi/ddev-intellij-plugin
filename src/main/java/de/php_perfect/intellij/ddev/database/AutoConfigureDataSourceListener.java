@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public final class AutoConfigureDataSourceListener implements DatabaseInfoChangedListener {
-    private static final @NotNull String HOST = "127.0.0.1";
+    private static final @NotNull String HOST = "192.168.0.168";
     private final @NotNull Project project;
 
 
